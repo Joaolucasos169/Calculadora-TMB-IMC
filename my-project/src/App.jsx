@@ -1,5 +1,5 @@
 import Calculadora from './components/Calculadora';
-
+import ilustracao from './assets/post.jpg';
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
@@ -18,7 +18,11 @@ function App() {
             preservar a temperatura etc.).
           </p>
           <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-            <span className="text-gray-500">Espaço para Imagem</span>
+            <img
+              src={ilustracao}
+              alt="Ilustração sobre metabolismo basal"
+              className="object-cover w-full h-64"
+              />
           </div>
         </div>
         

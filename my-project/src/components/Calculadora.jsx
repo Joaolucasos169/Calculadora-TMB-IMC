@@ -9,7 +9,9 @@ const Calculadora = () => {
   const [sexo, setSexo] = useState(''); 
   const [tmb, setTmb] = useState(null);
   const [erro, setErro] = useState('');
-  
+
+  console.log("Passou por aqui!")
+
   const handleReset = () => {
     setNome('');
     setIdade('');
@@ -21,7 +23,7 @@ const Calculadora = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); 
+    e.preventDefault(); //Impede o reload do formulário
     
     const p = parseFloat(peso);
     const a = parseFloat(altura);
