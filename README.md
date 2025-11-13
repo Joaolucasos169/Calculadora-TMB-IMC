@@ -35,19 +35,15 @@ Uma aplicação web simples e intuitiva para calcular o **IMC (Índice de Massa 
 ## 💻 Como Executar o Projeto Localmente
 
 1. Clone o repositório:
-   ```bash
+   ```
    git clone https://github.com/Joaolucasos169/Calculadora-TMB-IMC.git
-    ```
 ## Acesse a pasta do projeto:
-    ```bash
     cd Calculadora-TMB-IMC
-    ```
 
 3. Abra o arquivo index.html no navegador.
     💡 Não é necessário instalar dependências — o projeto é totalmente front-end.
 
 ## 📁 Estrutura de Pastas
-    ```bash
         Calculadora-TMB-IMC/
     │
     ├── index.html
@@ -55,7 +51,6 @@ Uma aplicação web simples e intuitiva para calcular o **IMC (Índice de Massa 
     ├── script.js
     └── assets/
         └── (imagens, ícones, etc.)
-    ```
 
 ## 🧮 Fórmulas Utilizadas
     IMC = peso / (altura * altura)
