@@ -8,10 +8,7 @@ Uma aplicação web simples e intuitiva para calcular o **IMC (Índice de Massa 
 
 ---
 
-## 📸 Prévia
-
-*(Adicione aqui uma captura de tela do projeto, se desejar)*  
-Exemplo:  
+## 📸 Prévia 
 ![Preview do site](./my-project/src/assets/Captura.png)
 
 ---
